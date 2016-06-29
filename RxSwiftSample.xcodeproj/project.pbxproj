@@ -20,6 +20,7 @@
 		3027010F1D235A300008ADF0 /* KeyAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3027010E1D235A300008ADF0 /* KeyAction.swift */; };
 		302701111D235A880008ADF0 /* KeyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302701101D235A880008ADF0 /* KeyState.swift */; };
 		304CA5081D23FCFE00F586CF /* ButtonTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CA5071D23FCFE00F586CF /* ButtonTapViewController.swift */; };
+		304CA50A1D24009B00F586CF /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CA5091D24009B00F586CF /* ValidationViewController.swift */; };
 		41698F4E4AB70DABB5D22671 /* Pods_RxSwiftSample_RxSwiftSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46368989FA10FFE192C836BE /* Pods_RxSwiftSample_RxSwiftSampleTests.framework */; };
 		686B6B842974D70DB71691FB /* Pods_RxSwiftSample_RxSwiftSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A3C880B206DBC05F07489A /* Pods_RxSwiftSample_RxSwiftSampleUITests.framework */; };
 		B1E6E5FF7D460AD53275E996 /* Pods_RxSwiftSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC69FF62EF17B58FEC6ECDE1 /* Pods_RxSwiftSample.framework */; };
@@ -63,6 +64,7 @@
 		3027010E1D235A300008ADF0 /* KeyAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyAction.swift; sourceTree = "<group>"; };
 		302701101D235A880008ADF0 /* KeyState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyState.swift; sourceTree = "<group>"; };
 		304CA5071D23FCFE00F586CF /* ButtonTapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTapViewController.swift; sourceTree = "<group>"; };
+		304CA5091D24009B00F586CF /* ValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
 		4195591184B32DB656883D55 /* Pods-RxSwiftSample-RxSwiftSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftSample-RxSwiftSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftSample-RxSwiftSampleTests/Pods-RxSwiftSample-RxSwiftSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		46368989FA10FFE192C836BE /* Pods_RxSwiftSample_RxSwiftSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftSample_RxSwiftSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B794171AA8C2507C95ADC24 /* Pods-RxSwiftSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftSample/Pods-RxSwiftSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				3001CEBC1D215DB8008E1F3C /* ViewController.swift */,
 				302701051D2262F00008ADF0 /* KonamiCommandViewController.swift */,
 				304CA5071D23FCFE00F586CF /* ButtonTapViewController.swift */,
+				304CA5091D24009B00F586CF /* ValidationViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -481,6 +484,7 @@
 				3001CEBD1D215DB8008E1F3C /* ViewController.swift in Sources */,
 				302701111D235A880008ADF0 /* KeyState.swift in Sources */,
 				3027010B1D2263AD0008ADF0 /* KonamiCommandViewModel.swift in Sources */,
+				304CA50A1D24009B00F586CF /* ValidationViewController.swift in Sources */,
 				3027010F1D235A300008ADF0 /* KeyAction.swift in Sources */,
 				304CA5081D23FCFE00F586CF /* ButtonTapViewController.swift in Sources */,
 				3001CEBB1D215DB8008E1F3C /* AppDelegate.swift in Sources */,
